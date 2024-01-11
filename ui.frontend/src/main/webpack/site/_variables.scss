@@ -6,6 +6,13 @@ $font-size:             16px;
 $font-height:           1.5;
 
 //== Color
+$white: #ffffff;
+$black: #333333;
+$red: #FA0F00;
+$dark-red: #9C0900;
+$blue: #1473E6;
+$dark-gray: #a9a9a9;
+$light-gray: #ECECEC;
 
 // Normal mode
 $color-foreground:      #202020;
@@ -16,3 +23,7 @@ $color-link:            #2020E0;
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
+
+// Breakpoints
+$screen-md: 769px;
+$screen-lg: 992px;

@@ -1,1 +1,45 @@
 .cmp-container {}
+
+/* Add Container Width + Background Styles */
+.cmp-container--max-width {
+  max-width: 1200px;
+}
+
+.cmp-container--padding {
+  padding: 64px 24px;
+}
+
+.cmp-container--background-transparent {
+  background-color: transparent;
+  color: $black;
+}
+
+.cmp-container--background-white {
+  background-color: $white;
+  color: $black;
+}
+
+.cmp-container--background-black {
+  background-color: $black;
+  color: $white;
+}
+
+.cmp-container--background-light-gray {
+  background-color: $light-gray;
+  color: $black;
+}
+
+.cmp-container--background-dark-gray {
+  background-color: $dark-gray;
+  color: $white;
+}
+
+.cmp-container--background-red {
+  background-color: $red;
+  color: $white;
+}
+
+.cmp-container--background-blue {
+  background-color: $blue;
+  color: $white;
+}
