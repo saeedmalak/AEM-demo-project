@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2024-01-11T11:55:12.588-05:00"
+        cq:lastModified="{Date}2024-01-11T15:41:02.584-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aemaacsdemowebsite/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -815,6 +815,72 @@
                             </text_copy_copy_copy>
                         </container_copy_copy_>
                     </container_9305493>
+                    <title_1981244741
+                        cq:styleIds="[1705001890952,1705005165540]"
+                        jcr:created="{Date}2024-01-11T14:37:21.595-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-01-11T15:29:46.552-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="H1 - Heading Level 1"
+                        sling:resourceType="aemaacsdemowebsite/components/title"
+                        linkTarget="_self"
+                        type="h4"/>
+                    <title_1981244741_cop
+                        cq:styleIds="[1705001893545,1705005151897]"
+                        jcr:created="{Date}2024-01-11T14:37:21.595-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-01-11T15:30:13.526-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="H2 - Heading Level 2"
+                        sling:resourceType="aemaacsdemowebsite/components/title"
+                        linkTarget="_self"
+                        type="h4"/>
+                    <title_1981244741_cop_1870112214
+                        cq:styleIds="[1705001896557,1705005151897]"
+                        jcr:created="{Date}2024-01-11T14:37:21.595-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-01-11T15:30:31.954-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="H3 - Heading Level 3"
+                        sling:resourceType="aemaacsdemowebsite/components/title"
+                        linkTarget="_self"
+                        type="h4"/>
+                    <title_1981244741_cop_2113346202
+                        cq:styleIds="[1705001899230,1705005151897]"
+                        jcr:created="{Date}2024-01-11T14:37:21.595-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-01-11T15:30:42.078-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="H4 - Heading Level 4"
+                        sling:resourceType="aemaacsdemowebsite/components/title"
+                        linkTarget="_self"
+                        type="h4"/>
+                    <title_1981244741_cop_749157424
+                        cq:styleIds="[1705001901627]"
+                        jcr:created="{Date}2024-01-11T14:37:21.595-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-01-11T15:31:08.424-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="H5 - Heading Level 5"
+                        sling:resourceType="aemaacsdemowebsite/components/title"
+                        linkTarget="_self"
+                        type="h4"/>
+                    <title_1981244741_cop_494995481
+                        cq:styleIds="[1705001906469]"
+                        jcr:created="{Date}2024-01-11T14:37:21.595-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-01-11T15:31:21.397-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="H6 - Heading Level 6"
+                        sling:resourceType="aemaacsdemowebsite/components/title"
+                        linkTarget="_self"
+                        type="h4"/>
                 </container>
             </container>
         </root>

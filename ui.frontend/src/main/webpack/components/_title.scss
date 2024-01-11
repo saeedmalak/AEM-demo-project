@@ -1,3 +1,85 @@
 .cmp-title {}
 .cmp-title__text {}
 .cmp-title__link {}
+
+/* Add Title Size & Media Query Styles */
+.cmp-title--h1 {
+  .cmp-title__text {
+    font-size: $h1-md;
+  }
+}
+.cmp-title--h2  {
+  .cmp-title__text {
+    font-size: $h2-md;
+  }
+}
+.cmp-title--h3 {
+  .cmp-title__text {
+    font-size: $h3-md;
+  }
+}
+.cmp-title--h4 {
+  .cmp-title__text {
+    font-size: $h4-md;
+  }
+}
+.cmp-title--h5 {
+  .cmp-title__text {
+    font-size: $h5-md;
+  }
+}
+.cmp-title--h6 {
+  .cmp-title__text {
+    font-size: $h6-md;
+  }
+}
+
+@media (min-width: $screen-md) {
+  .cmp-title--h1 {
+    .cmp-title__text {
+      font-size: $h1-lg;
+    }
+  }
+  .cmp-title--h2 {
+    .cmp-title__text {
+      font-size: $h2-lg;
+    }
+  }
+  .cmp-title--h3 {
+    .cmp-title__text {
+      font-size: $h3-lg;
+    }
+  }
+  .cmp-title--h4 {
+    .cmp-title__text {
+      font-size: $h4-lg;
+    }
+  }
+  .cmp-title--h5 {
+    .cmp-title__text {
+      font-size: $h5-lg;
+    }
+  }
+  .cmp-title--h6 {
+    .cmp-title__text {
+      font-size: $h6-lg;
+    }
+  }
+}
+
+/* Add Title alignment styles */
+.cmp-title--left {
+  .cmp-title__text {
+    text-align: left;
+  }
+}
+.cmp-title--center {
+  .cmp-title__text {
+    text-align: center;
+  }
+}
+.cmp-title--right {
+  .cmp-title__text {
+    text-align: right;
+  }
+}
