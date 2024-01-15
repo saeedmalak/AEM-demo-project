@@ -95,6 +95,20 @@
                     jcr:primaryType="nt:unstructured"
                     features="bold,italic"/>
             </rtePlugins>
+            <htmlRules jcr:primaryType="nt:unstructured">
+                <links jcr:primaryType="nt:unstructured"
+                    ensureInternalLinkExt="{Boolean}false"
+                    protocols="[http://,https://,mailto:,tel:]"/>
+                <docType
+                    jcr:primaryType="nt:unstructured"
+                    baseType="html"
+                    version="4.0">
+                    <typeConfig
+                        jcr:primaryType="nt:unstructured"
+                        isXhtmlStrict="{Boolean}true"
+                        useSemanticMarkup="{Boolean}true"/>
+                </docType>
+            </htmlRules>
             <uiSettings jcr:primaryType="nt:unstructured">
                 <cui jcr:primaryType="nt:unstructured">
                     <inline

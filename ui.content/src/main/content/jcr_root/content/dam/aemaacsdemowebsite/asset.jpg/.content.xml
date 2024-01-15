@@ -5,14 +5,14 @@
     jcr:uuid="1432e0c8-5a7d-4e48-822f-2a6818ad59cc">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2024-01-03T11:26:38.553-05:00"
-        jcr:lastModifiedBy="workflow-process-service"
+        jcr:lastModified="{Date}2024-01-15T10:22:53.094-05:00"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2024-01-03T11:26:37.371-05:00"
+            dam:extracted="{Date}2024-01-15T10:22:52.989-05:00"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"
@@ -36,6 +36,8 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}51"
             tiff:ImageWidth="{Long}940"
