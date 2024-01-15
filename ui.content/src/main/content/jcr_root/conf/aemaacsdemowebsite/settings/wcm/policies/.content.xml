@@ -176,15 +176,125 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_641475696923109>
                 <policy_641528232375303
-                    jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
+                    jcr:description="Allows all sizes."
+                    jcr:lastModified="{Date}2024-01-11T14:16:40.977-05:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Title"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    allowedTypes="[h2,h3,h4,h5,h6]"
+                    allowedTypes="[h1,h2,h3,h4,h5,h6]"
                     linkDisabled="false"
                     type="h2">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Size"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cpm-title--h1"
+                                    cq:styleId="1704999865930"
+                                    cq:styleLabel="H1"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cpm-title--h2"
+                                    cq:styleId="1704999877917"
+                                    cq:styleLabel="H2"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="cpm-title--h3"
+                                    cq:styleId="1704999881058"
+                                    cq:styleLabel="H3"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="cpm-title--h4"
+                                    cq:styleId="1704999883963"
+                                    cq:styleLabel="H4"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item4
+                                    cq:styleClasses="cpm-title--h5"
+                                    cq:styleId="1704999887677"
+                                    cq:styleLabel="H5"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item5
+                                    cq:styleClasses="cpm-title--h6"
+                                    cq:styleId="1704999891201"
+                                    cq:styleLabel="H6"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy_641528232375303>
+                <policy_178207596593482
+                    jcr:lastModified="{Date}2024-01-11T15:41:40.223-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Title"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                    linkDisabled="false"
+                    type="h1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Font Size"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-title--h1"
+                                    cq:styleId="1705001890952"
+                                    cq:styleLabel="H1"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-title--h2"
+                                    cq:styleId="1705001893545"
+                                    cq:styleLabel="H2"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="cmp-title--h3"
+                                    cq:styleId="1705001896557"
+                                    cq:styleLabel="H3"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="cmp-title--h4"
+                                    cq:styleId="1705001899230"
+                                    cq:styleLabel="H4"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item4
+                                    cq:styleClasses="cmp-title--h5"
+                                    cq:styleId="1705001901627"
+                                    cq:styleLabel="H5"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item5
+                                    cq:styleClasses="cmp-title--h6"
+                                    cq:styleId="1705001906469"
+                                    cq:styleLabel="H6"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="Alignment"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-title--left"
+                                    cq:styleId="1705005138551"
+                                    cq:styleLabel="Left"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-title--center"
+                                    cq:styleId="1705005151897"
+                                    cq:styleLabel="Center"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="cmp-title--right"
+                                    cq:styleId="1705005165540"
+                                    cq:styleLabel="Right"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                    </cq:styleGroups>
+                </policy_178207596593482>
             </title>
             <experiencefragment jcr:primaryType="nt:unstructured">
                 <policy_header
